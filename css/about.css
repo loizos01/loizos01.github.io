@@ -1,0 +1,40 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+/* Column container */
+.backbox {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #202329;
+    height: 550px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    margin-top: 1%;
+}
+
+
+.aside{
+  flex: 50%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 3%;
+}
+.aside1 {
+    flex: 30%;
+    padding: 3%;
+
+
+}
+
+@media screen and (max-width: 700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+}
