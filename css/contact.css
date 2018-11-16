@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.contactback {
+  background-color: #202329;
+  height: 500px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 5%;
+}
+
+
+.form{
+  flex: 50%;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+@media screen and (max-width: 1620px) {
+    .contactback {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .form {
+        border-style: none;
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contactback {
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+
+    }
+    .form{
+      margin: 25px;
+    }
+}
