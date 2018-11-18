@@ -10,15 +10,13 @@
 /*layout*/
 @import url("navigation.css"); /*Navigation bar style */
 @import url("forms.css"); /* Form style */
-@import url("footer.css"); /* Form style */
-/*pages*/
-@import url("about.css"); /*Specific style for about page*/
+@import url("Backbox.css"); /*BackBox style and responsiveness*/
+@import url("BtStrapMod.css"); /*Bootstrap mod*/
+
+/*pages*//*Specific style for about page*/
 @import url("home.css");
-@import url("contact.css");
 
 /*themes*/
 @import url("theme.css"); /*Main theme*/
-
-
 
 /*vendors*/
