@@ -1,0 +1,140 @@
+/*Positioning,Responsiveness and Designing of the backbox*/
+.back-image {
+  background-color: #1c1e24;
+  height: 500px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 5%;
+}
+
+/*Background picture*/
+.homeBody {
+  background-color: #282c34;
+  background-image: url("../imgs/background.png");
+}
+
+/*Typography, positioning,responsiveness and design of text inside box*/
+.back-text {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/*Personal photo design,responsiveness and positioning */
+.avatar {
+  border-radius: 50%;
+  /*Round Image*/
+  height: 40%;
+  /* Resize Image*/
+  width: auto;
+  /*Positioning*/
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*Scaling*/
+  /*Adjust grayscale*/
+  -webkit-filter: grayscale(20%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(20%);
+}
+
+/*Navigation's display parameters */
+ul.topnavhome {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #202329;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/*Make navbar appear in a row*/
+ul.topnavhome li {
+  float: left;
+}
+
+/*Text inside navigation display parameters*/
+ul.topnavhome li a {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  color: white;
+  width: 100px;
+  text-align: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  text-decoration: none;
+}
+
+/*Change colour when you hover over navigation elements */
+ul.topnavhome li a:hover:not(.active) {
+  color: #fafafa;
+}
+
+/*Change colour of active navigation element */
+ul.topnavhome li a.active {
+  color: white;
+}
+
+/*Responsive reaction at 1500px*/
+@media screen and (max-width: 1500px) {
+
+  /*Change width and positioning of the box container*/
+  .back-image {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  /*Change width and positioning of the navbar container*/
+  ul.topnavhome {
+    width: 80%;
+    margin: auto;
+    margin-top: 18px;
+  }
+}
+
+/*Responsive reaction at 1000px*/
+@media screen and (max-width: 1000px) {
+  .back-image {
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  ul.topnavhome {
+    width: 100%;
+    margin: auto;
+    margin-top: 18px;
+  }
+}
+
+/*Responsive reaction at 600px*/
+@media screen and (max-width: 600px) {
+  ul.topnavhome {
+    margin-top: 0px;
+  }
+
+  ul.topnavhome,
+  ul.topnavhome li {
+    float: none;
+  }
+
+  /*Display elements in blocks,fill row*/
+  ul.topnavhome, ul.topnavhome li a, .back-image {
+    border-radius: 0px;
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+}
