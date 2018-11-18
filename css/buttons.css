@@ -1,3 +1,4 @@
+/*Designing*/
 .button1{
  background-color: #d6d6d6;
  padding-top: 8px;
@@ -10,7 +11,7 @@
  -webkit-transition-duration: 0.4s; /* Safari */
  transition-duration: 0.4s;
 }
-
+/*Change color on hover*/
 .button1:hover {
     background-color: #474747;
     color: white;
