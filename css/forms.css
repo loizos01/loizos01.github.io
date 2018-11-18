@@ -1,12 +1,16 @@
+/*Positioning*/
 .form {
   width: 80%;
   flex: auto;
 }
 
-.text{
-  width:80%;
+/*Styling of text*/
+.text {
+  width: 80%;
   color: #282828;
 }
-.text:focus{
+
+/*Styling of text on focus*/
+.text:focus {
   color: black;
 }
