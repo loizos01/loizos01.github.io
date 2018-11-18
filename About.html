@@ -1,70 +1,77 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./css/master.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <script>
-          $(document).ready(function(){
-            $(window).resize(function(){
-              if ($(window).width() <= 1040){
-                $("#asideimg").hide();
-              }
-              });
-          });
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/master.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-          $(document).ready(function(){
-            $(window).resize(function(){
-              if ($(window).width() > 1040){
-              $("#asideimg").show();
-              }
-              });
-          });
+  <script>
+    /*Hide image when the size of the windows is less or equal than 1040px*/
+    $(document).ready(function() {
+      $(window).resize(function() {
+        if ($(window).width() <= 1040) {
+          $("#asideimg").hide();
+        }
+      });
+    });
+    /*Show image when the size of the windows is more than 1040px*/
+    $(document).ready(function() {
+      $(window).resize(function() {
+        if ($(window).width() > 1040) {
+          $("#asideimg").show();
+        }
+      });
+    });
+  </script>
 
-    </script>
+  <title>About Me</title>
 
-    <title>About Me</title>
+  <!--Navigation Bar-->
+  <ul class="topnav">
+    <li> <a href="Home.html"> Home</a></li>
+    <li> <a href="projects.html">Projects</a></li>
+    <li> <a class="active" href="About.html">About</a></li>
+    <li> <a href="Contact.html">Contact Me</a></li>
+  </ul>
+</head>
 
-    <ul class="topnav">
-      <li>  <a href="Home.html"> Home</a></li>
-      <li>  <a href="projects.html">Projects</a></li>
-      <li>  <a class="active" href="About.html">About</a></li>
-      <li>  <a  href="Contact.html">Contact Me</a></li>
-    </ul>
-  </head>
-  <body>
+<body>
 
-        <div class="rowCon">
+  <div class="rowCon">
+    <!--Aside Image-->
+    <aside id="asideimg" class="aside1">
+      <img src="./imgs/Dundee3.jpg" alt="Dundee">
+    </aside>
+    <!--Box container-->
+    <aside class="backbox">
+      <!--About me-->
+      <div class="template">
+        <h1>About me</h1>
+        <br>
+        <br>
+        <h4>I'm a Programmer based on Limassol, Cyprus.</h4>
+        <h4>I enjoy turning complex problems into simple, programs. When I'm not coding or listening to music, you'll find me cooking or messing with motorcycles.Whilst my foreign language interest increases day by day,I currently speak
+          Greek(Native) and English.</h4>
+        <br>
+        <h4>Education / Accomplishments</h4>
+        <h5><span class="boxDate">2018-Now</span> - Computer science, University of Dundee</h5>
+        <h5><span class="boxDate">2017-2018</span> - National Guard, Cyprus - Navy</h5>
+        <h5><span class="boxDate">2015-2017</span> - Saint John High School, Cyprus</h5>
+        <br>
+        <h4>Participation</h4>
+        <h5><span class="boxDate">2017</span> - European Cyber Security Challenge - Malaga, Spain</h5>
+        <h5><span class="boxDate">2016</span> - Balkan Olympiad in Informatics</h5>
+        <h5><span class="boxDate">2015</span> - IEEEXtreme Programming Competition 9.0</h5>
+        <h5><span class="boxDate">2014</span> - IEEEXtreme Programming Competition 8.0</h5>
+      </div>
+    </aside>
 
-          <aside id="asideimg" class="aside1">
-                <img src="./imgs/Dundee3.jpg" alt="Dundee">
-          </aside>
-
-          <aside class="backbox">
-            <div class="template">
-                <h1>About me</h1>
-                <br>
-                <br>
-                <h4>I'm a Programmer based on Limassol, Cyprus.</h4>
-                <h4>I enjoy turning complex problems into simple, programs. When I'm not coding or listening to music, you'll find me cooking or messing with motorcycles.</h4>
-                <br>
-                <h4>Education</h4>
-                <h5><span class="boxDate">2018-Now</span> - Computer science, University of Dundee</h5>
-                <h5><span class="boxDate">2017-2018</span> - National Guard, Cyprus - Navy</h5>
-                <br>
-                <h4>Participation</h4>
-                <h5><span class="boxDate">2017</span> - European Cyber Security Challenge - Malaga, Spain</h5>
-                <h5><span class="boxDate">2016</span> - Balkan Olympiad in Informatics</h5>
-                <h5><span class="boxDate">2015</span> - IEEEXtreme Programming Competition 9.0</h5>
-                <h5><span class="boxDate">2014</span> - IEEEXtreme Programming Competition 8.0</h5>
-            </div>
-          </aside>
-
-        </div>
+  </div>
 
 
 
-  </body>
+</body>
+
 </html>
