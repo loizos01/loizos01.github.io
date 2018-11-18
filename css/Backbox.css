@@ -1,19 +1,19 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-/* Column container */
-.rowCon{
-      width: 50%;
-      margin: auto;
-      margin-top: 2%;
-      display: flex;
-      flex-wrap: wrap;
-      position: relative;
-
+/* Column container positioning and responsivness*/
+.rowCon {
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
 }
 
-.template{
+/*Designe*/
+.template {
   color: white;
   font-family: 'Montserrat', sans-serif;
   padding: 3%;
@@ -21,12 +21,13 @@
 
 /* Column container */
 .backbox {
-    background-color: #202329;
-    height: 692px;
-    flex:70%;
+  background-color: #202329;
+  height: 692px;
+  flex: 70%;
 }
 
-.boxDate{
+/*Design,positioning*/
+.boxDate {
   background-color: #d6d6d6;
   color: #202329;
   padding-top: 2px;
@@ -37,36 +38,37 @@
   display: inline;
 }
 
+/*Positioning*/
 .aside1 {
-    margin-right: 5px;
-    flex: 10%;
+  margin-right: 5px;
+  flex: 10%;
 }
 
+/*Reaction to windows resize,positioning fixes*/
 @media screen and (max-width: 1885px) {
-  .rowCon{
+  .rowCon {
     width: 70%;
   }
 }
 
 @media screen and (max-width: 1350px) {
-  .rowCon{
+  .rowCon {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 1040px) {
-  .rowCon{
+  .rowCon {
     width: 100%;
   }
-  .backbox{
+
+  .backbox {
     flex: 100%;
   }
 }
 
-
-
 @media screen and (max-width: 700px) {
-    .rowCon, .navbar {
-        flex-direction: column;
-    }
+  .rowCon, .navbar {
+    flex-direction: column;
+  }
 }
