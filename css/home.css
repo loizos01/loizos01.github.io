@@ -14,7 +14,7 @@
 /*Background picture*/
 .homeBody {
   background-color: #282c34;
-  background-image: url("../imgs/background.png");
+  background-image: url("./imgs/background.png");
 }
 
 /*Typography, positioning,responsiveness and design of text inside box*/
