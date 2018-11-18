@@ -11,8 +11,7 @@
 }
 
 /*Black arrow*/
-.carousel-control-next-icon:after
-{
+.carousel-control-next-icon:after {
   content: '>';
   font-size: 55px;
   color: black;
