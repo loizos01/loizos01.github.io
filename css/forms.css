@@ -1,18 +1,12 @@
 .form {
-  padding: 15px;
   width: 80%;
   flex: auto;
-  margin: 50px;
-  border-style: solid;
-  border-width: 2px;
-  color: #eeeeee;
 }
 
 .text{
-  width:60%;
+  width:80%;
   color: #282828;
 }
 .text:focus{
   color: black;
-
 }
