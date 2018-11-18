@@ -7,6 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script>
+        $(document).ready(function(){
+          $(window).resize(function(){
+            if ($(window).width() <= 1040){
+              $("#asideimg").hide();
+            }
+            });
+        });
+
+        $(document).ready(function(){
+          $(window).resize(function(){
+            if ($(window).width() > 1040){
+            $("#asideimg").show();
+            }
+            });
+        });
+
+  </script>
+
   <ul class="topnav">
     <li> <a href="Home.html">Home</a></li>
     <li> <a href="projects.html">Projects</a></li>
@@ -17,29 +38,43 @@
 </head>
 
 <body>
-  <div class="contactback">
-    <form class="form">
-        <h2 <i class="fas fa-phone"></i> Mobile phone</h2>
-        <h3>+44-1234566765</h3>
-        <h2 <i class="far fa-envelope"></i> Email</h2>
-        <h3>thisisanemail@gmail.com</h3>
-    </form>
-    <form class="form">
-      First name:<br>
-      <input type="text" name="firstname"><br>
-      <br>
-      Last name:<br>
-      <input type="text" name="lastname">
-      <br>
-      <br>
-      <textarea class="text" name="message" rows="10" onfocus="this.value=''"  value="">Please enter your message here
-      </textarea>
-      <br>
-      <br>
-      <input class="button1" type="submit" value="Submit">
-    </form>
+
+  <div class="rowCon">
+
+    <aside id="asideimg" class="aside1">
+          <img src="./imgs/limassol1.jpg" alt="Limassol">
+    </aside>
+
+    <aside class="backbox">
+      <div class="template">
+        <h1>Contact me</h1>
+        <br>
+        <br>
+        <form class="form">
+            <h3 <i class="fas fa-phone"></i> Mobile phone</h3>
+            <h5>+44-1234566765</h5>
+            <h3 <i class="far fa-envelope"></i> Email</h3>
+            <h5>thisisanemail@gmail.com</h5>
+        </form>
+        <form class="form">
+          First name:<br>
+          <input type="text" name="firstname"><br>
+          <br>
+          Last name:<br>
+          <input type="text" name="lastname">
+          <br>
+          <br>
+          <textarea class="text" name="message" rows="10" onfocus="this.value=''"  value="">Please enter your message here
+          </textarea>
+          <br>
+          <br>
+          <input class="button1" type="submit" value="Submit">
+        </form>
+      </div>
+    </aside>
 
   </div>
+
 
 </body>
 
