@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Column container positioning and responsivness*/
+.rowCon1 {
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/*Designe*/
+.template1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding: 3%;
+}
+.container{
+  padding:3%;
+}
+
+/* Column container */
+.backbox1 {
+  margin-bottom:5%;
+  background-color: #202329;
+  height:1316px;
+  flex: 70%;
+}
+
+/*Positioning*/
+.aside1 {
+  margin-right: 5px;
+  flex: 10%;
+}
+
+/*Reaction to windows resize,positioning fixes*/
+@media screen and (max-width: 1885px) {
+  .rowCon1 {
+    width: 70%;
+  }
+}
+/*Reaction to windows resize,positioning fixes*/
+@media screen and (max-width: 1350px) {
+  .rowCon1 {
+    width: 90%;
+  }
+}
+/*Reaction to windows resize,positioning fixes*/
+@media screen and (max-width: 1040px) {
+  .aside1{
+    display: none;
+  }
+  .conteiner{
+    padding:0;
+  }
+  .rowCon1 {
+    width: 100%;
+  }
+
+  .backbox1 {
+    flex: 100%;
+    height: auto;
+  }
+}
+/*Reaction to windows resize,positioning fixes*/
+@media screen and (max-width: 770px) {
+  .backbox1{
+    height: auto;
+  }
+  .aside1{
+    display: none;
+  }
+
+  .rowCon1, .navbar {
+    flex-direction: column;
+  }
+}
