@@ -58,6 +58,9 @@
 }
 
 @media screen and (max-width: 1040px) {
+  .aside1{
+    display: none;
+  }
   .rowCon {
     width: 100%;
   }
@@ -68,6 +71,12 @@
 }
 
 @media screen and (max-width: 700px) {
+  .aside1{
+    display: none;
+  }
+  .backbox{
+    height: auto;
+  }
   .rowCon, .navbar {
     flex-direction: column;
   }
