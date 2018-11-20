@@ -4,8 +4,16 @@
   flex: auto;
 }
 
+.formbox{
+  border-radius: 5%;
+  border-color: #d6d6d6;
+  border-width: thin;
+}
 /*Styling of text*/
 .text {
+  border-radius: 2%;
+  border-color: #d6d6d6;
+  border-width: medium;
   width: 80%;
   color: #282828;
 }
