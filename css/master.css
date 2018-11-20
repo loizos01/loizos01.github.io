@@ -15,6 +15,7 @@
 
 /*pages*//*Specific style for about page*/
 @import url("home.css");
+@import url("project.css");
 
 /*themes*/
 @import url("theme.css"); /*Main theme*/
