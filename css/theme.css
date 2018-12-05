@@ -9,6 +9,19 @@ body {
   background-color: #eeeeee;
 }
 
+a.info{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  display: block;
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
 /*Positioning and design of headers*/
 h1 {
   display: block;
