@@ -26,7 +26,7 @@
   flex: 70%;
 }
 
-/*Design,positioning*/
+/*Design of date boxes*/
 .boxDate {
   background-color: #d6d6d6;
   color: #202329;
@@ -37,6 +37,7 @@
   border-radius: 10%;
   display: inline;
 }
+
 
 /*Positioning*/
 .aside1 {
