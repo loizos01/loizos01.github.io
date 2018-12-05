@@ -6,6 +6,7 @@
 
 /*components*/
 @import url("buttons.css");
+@import url("lightbox.css");
 
 /*layout*/
 @import url("navigation.css"); /*Navigation bar style */
