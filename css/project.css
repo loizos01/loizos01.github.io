@@ -16,8 +16,9 @@
 .template1 {
   color: white;
   font-family: 'Montserrat', sans-serif;
-  padding: 3%;
+  padding: 2%;
 }
+
 .container{
   padding:3%;
 }
@@ -74,7 +75,7 @@
     display: none;
   }
 
-  .rowCon1, .navbar {
+  .rowCon1, .navbar,.rowCards {
     flex-direction: column;
   }
 }

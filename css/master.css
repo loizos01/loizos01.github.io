@@ -6,13 +6,15 @@
 
 /*components*/
 @import url("buttons.css");
-@import url("lightbox.css");
+
 
 /*layout*/
 @import url("navigation.css"); /*Navigation bar style */
 @import url("forms.css"); /* Form style */
+@import url("lightbox.css"); /*Lightbox*/
+@import url("cards.css"); /*Cards*/
+@import url("carousel.css"); /*Carousel*/
 @import url("Backbox.css"); /*BackBox style and responsiveness*/
-@import url("BtStrapMod.css"); /*Bootstrap mod*/
 
 /*pages*//*Specific style for about page*/
 @import url("home.css");
